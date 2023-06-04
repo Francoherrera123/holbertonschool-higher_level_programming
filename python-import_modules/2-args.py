@@ -6,6 +6,6 @@ if __name__ == "__main__":
         print("0 arguments.")
     else:
         print(f"{argc - 1}" + "argument" + ("s:" if argc > 2 else ":"))
-        for idx, arg int enumerate(sys.argv):
+        for idx, arg in enumerate(sys.argv):
             if idx > 0:
                 print("{}: {}".format(idx, arg))
