@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Task 4"""
+"""Task 5"""
 
 
 class Square:
@@ -27,6 +27,6 @@ class Square:
         for i in range(self.__size):
             if i != 0:
                 print("")
-            for j un range(self.__size):
+            for j in range(self.__size):
                 print("#", end="")
         print()
