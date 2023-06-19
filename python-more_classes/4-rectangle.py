@@ -4,7 +4,7 @@
 
 class Rectangle:
     """Class thast defines a rectangle with attributes"""
-    def __init__(self, widht=0, height=0):
+    def __init__(self, width=0, height=0):
         self.width = width
         self.height = height
 
