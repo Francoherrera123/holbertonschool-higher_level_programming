@@ -42,4 +42,3 @@ class Rectangle:
         else:
             result = (self.__width * 2) + (self.__height * 2)
             return result
-
