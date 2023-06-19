@@ -3,7 +3,7 @@
 
 
 class Rectangle:
-    """Class thast defines a rectangle with attributes"""
+    """Class that defines a rectangle with attributes"""
     def __init__(self, width=0, height=0):
         self.width = width
         self.height = height
@@ -36,7 +36,7 @@ class Rectangle:
         """calculates the area of a rectangle"""
         return self.__height * self.__width
 
-    def perimeter(self)
+    def perimeter(self):
         if self.__width == 0 or self.__height == 0:
             return 0
         else:
