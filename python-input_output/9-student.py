@@ -11,6 +11,6 @@ class Student():
         self.last_name = last_name
         self.age = age
 
-    def ro_json(self):
+    def to_json(self):
         """Retriebves a directory representation of a student instance"""
         return self.__dict__
