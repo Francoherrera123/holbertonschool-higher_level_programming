@@ -2,6 +2,7 @@
 """This module defines a base to the proyect 'almost_a_circle'"""
 import json
 
+
 class Base:
     """Base class with attributes and init constructor"""
     __nb_objects = 0
