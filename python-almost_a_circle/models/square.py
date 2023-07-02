@@ -48,4 +48,3 @@ class Square(Rectangle):
                     self.x = value
                 if key == "y":
                     self.y = value
-
