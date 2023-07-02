@@ -81,7 +81,7 @@ class Test_classRectangle(unittest.TestCase):
         temp = StringIO()
         # redirect the output to my temporary output
         sys.stdout = temp
-        
+
         rect0 = Rectangle(1, 2)
         rect0.display()
         self.assertEqual(temp.getvalue(), "#\n#\n")
@@ -120,10 +120,10 @@ class Test_classRectangle(unittest.TestCase):
 
     def test_create_method(self):
         """ check the correct creation of a new instance """
-        rect0 = Rectangle.create(**{ 'id': 89 })
+        rect0 = Rectangle.create(**{'id': 89})
         self.assertEqual(rect0.id, 89)
 
-        rect1 = Rectangle.create(**{'width': 1, 'height': 2, 'x': 3, 'y': 4 })
+        rect1 = Rectangle.create(**{'width': 1, 'height': 2, 'x': 3, 'y': 4})
         self.assertEqual(rect1.id, 5)
         self.assertEqual(rect1.width, 1)
         self.assertEqual(rect1.height, 2)
@@ -132,7 +132,6 @@ class Test_classRectangle(unittest.TestCase):
 
     def test_save_to_file(self):
         """ check the correct functionality of the save_to_file method """
-
 
 
 if __name__ == "__main__":

@@ -3,8 +3,6 @@
 Unittest for class Square methods
 """
 import unittest
-from io import StringIO
-import sys
 from models.square import Square
 
 

@@ -53,8 +53,9 @@ class Test_classBase(unittest.TestCase):
 
     def test_toJSONstring_data(self):
         """ check method with a non empty list as argument """
-        list_dict = [{'x':0}, {'x':2}]
-        self.assertEqual(Base.to_json_string(list_dict),'[{"x": 0}, {"x": 2}]')
+        list_dict = [{'x': 0}, {'x': 2}]
+        self.assertEqual(Base.to_json_string(list_dict),
+                         '[{"x": 0}, {"x": 2}]')
 
         """ check method without any argument """
         self.assertEqual(Base.to_json_string(None), '[]')
@@ -71,6 +72,7 @@ class Test_classBase(unittest.TestCase):
 
         """ check method with a non empty list as argument """
         self.assertEqual(Base.from_json_string('[{ "id": 89 }]'), [{'id': 89}])
+
 
 if __name__ == "__main__":
     unittest.main()
